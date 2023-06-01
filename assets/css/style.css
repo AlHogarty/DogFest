@@ -1,15 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-h1 {
-    font-family: 'Permanent Marker', cursive;
-}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 * {
+    font-family: 'Amatic SC', cursive;
     background-color: #aab6c8;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px 0px 20px;
+}
+
+header a:hover {
+    color: red;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px 0px 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation {
+    font-size: 120%;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.navigation li {
+    list-style-type: none;
+    display: inline;
+}
+
+.main {
+    height:80vh;
+    border: 1px black solid;
 
 }
 
-#header {
-    border: 1px solid black;
-    
+.footer-container {
+    margin: auto;
+    width: 100%;
+    padding: 0px 0px 0px 0;
+}
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+    padding: 0 40px;
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+}
+
+.social a:hover {
+    color: red;
 }
