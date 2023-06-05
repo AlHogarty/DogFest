@@ -2,6 +2,9 @@
 
 * {
     background-color: #aab6c8;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .logo h1 {
@@ -58,15 +61,25 @@ header a {
     opacity: 0.6;
 }
 
-.main p {
-    padding: 50px;
-    text-align: center;
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info {
+    width: 30%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .footer-container {
     margin: auto;
     width: 100%;
-    padding: 0px 0px 0px 0;
+    padding: 40px 0px 0px 0;
+    border-top: 1px black solid;
 }
 
 .social {
@@ -75,7 +88,7 @@ header a {
 
 .social li {
     display: inline;
-    padding: 0 40px;
+    padding: 40px;
 }
 
 .social a {
