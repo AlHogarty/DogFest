@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-family: 'Amatic SC', cursive;
 }
 
 
@@ -36,8 +37,6 @@ header a:hover {
 }
 
 
-
-
 header a {
     text-decoration: none;
     color: black;
@@ -56,23 +55,36 @@ header a {
 }
 
 .main {
-    height:80vh;
+    /* height:80vh; */
     border: 1px black solid;
     background: url(/assets/images/pexels-blue-bird-7210754.jpg) no-repeat fixed center; 
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    flex-wrap: wrap;
 }
 
 .info {
     width: 30%;
+    padding: 20px;
+    background-color: #f1f1f1;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.img-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 .footer-container {
