@@ -12,10 +12,17 @@
     font-size: 200%;
 }
 
+/* .fixedElement {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+} */
+
 header {
     font-family: 'Amatic SC', cursive;
     font-size: 200%;
-    padding: 0px 0px 0px 0px;   
+    padding: 10px;   
     margin: 0px 0px 0px 0px;    
     border: black 1px solid;
     display: flex;
@@ -42,28 +49,39 @@ header a {
 }
 
 .navigation {
-    font-size: 120%;
+    font-size: 70%;
     text-transform: uppercase;
-    text-align: center;
-    padding-top: 5px;
+    padding-right: 50px;
 }
 
 .navigation li {
     list-style-type: none;
     display: inline;
+    word-spacing: 10px;
 }
 
-.book {
-    width: 100%;
-    height: auto;
-    background-color: rgb(254, 0, 0);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#book {
+    width: auto;
+    height: 100vh;
+    background-color: rgb(151, 223, 113);
+}
+
+#events {
+    width: auto;
+    height: 100vh;
+    background-color: rgb(87, 99, 164);
+}
+
+#contact {
+    width: auto;
+    height: 100vh;
+    background-color: rgb(131, 62, 98);
+}
+
+.content {
+    background-color: blue;
+    width: 100px;
+    height: 10px;
 }
 
 .footer-container {
