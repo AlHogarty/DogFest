@@ -56,26 +56,13 @@ header a {
     word-spacing: 10px;
 }
 
-.content {
-    padding: 0px 0px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: center;
-    width: 70vw;
-    height: 10vh;
-    background-color: #aab6c8;
-    border: 1px black solid;
-}
 
-#home {
-    background-image: url("assets/images/pexels-blue-bird-7210754.jpg");
 
+#home-ct {
+    background-image: ; 
     width: auto;
-    height: 90vh;
-    padding-top: 10%;
+    height: 100vh;
+    padding-top: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: inherit;
@@ -84,9 +71,9 @@ header a {
     align-content: center;
 }
 
-#book {
+#book-ct {
     width: auto;
-    height: 90vh;
+    height: 100vh;
     padding-top: 10%;
     background-image: -webkit-linear-gradient(45deg, rgb(163, 175, 177) 0%, rgb(0, 36, 242) 100%);
     display: flex;
@@ -97,9 +84,9 @@ header a {
     align-content: center;
 }
 
-#events {
+#events-ct {
     width: auto;
-    height: 90vh;
+    height: 100vh;
     padding-top: 25vh;
     background-image: -webkit-linear-gradient(45deg, rgb(26, 22, 26) 0%, rgb(161, 107, 150) 100%);
     display: flex;
@@ -110,9 +97,9 @@ header a {
     align-content: center;
 }
 
-#contact {
+#contact-ct {
     width: auto;
-    height: 90vh;
+    height: 100vh;
     padding-top: 10%;
     background-image: -webkit-linear-gradient(45deg, rgb(165, 177, 163) 0%, rgb(39, 41, 37) 100%);
     display: flex;
@@ -150,3 +137,17 @@ header a {
 
 
 
+#home #book #events #contact {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 70vw;
+    height: 10vh;
+    background-color: #ffffff36;
+    border: 1px black solid;
+    font-size: 150%;
+    align-items: center;
+}
