@@ -8,7 +8,6 @@
     font-family: 'Amatic SC', cursive;
 }
 
-
 .logo h1 {
     font-size: 200%;
 }
@@ -54,37 +53,17 @@ header a {
     display: inline;
 }
 
-.main {
-    /* height:80vh; */
-    border: 1px black solid;
-    background: url(/assets/images/pexels-blue-bird-7210754.jpg) no-repeat fixed center; 
-    /* opacity: 0.6; */
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
+.book {
     width: 100%;
-}
-
-.info {
-    width: 30%;
-    padding: 20px;
-    background-color: #f1f1f1;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.img-container {
-    width: 30%;
+    height: auto;
+    background-color: rgb(254, 0, 0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.img-container img {
-    max-width: 100%;
-    border-radius: 10px;
 }
 
 .footer-container {
