@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 * {
-    background-color: #aab6c8;
     margin: 0;
     padding: 0;
     border: none;
@@ -12,26 +11,23 @@
     font-size: 200%;
 }
 
-/* .fixedElement {
-    position:fixed;
-    top:0;
-    width:100%;
-    z-index:100;
-} */
-
 header {
     font-family: 'Amatic SC', cursive;
     font-size: 200%;
     padding: 10px;   
     margin: 0px 0px 0px 0px;    
-    border: black 1px solid;
+    border-bottom: black 1px solid;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;   
-}
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: #aab6c8;
 
+}
 
 header a {
     text-decoration: none;
@@ -60,28 +56,71 @@ header a {
     word-spacing: 10px;
 }
 
+.content {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 70vw;
+    height: 10vh;
+    background-color: #aab6c8;
+    border: 1px black solid;
+}
+
+#home {
+    background-image: url("/assets/images/pexels-blue-bird-7210754.jpg");
+
+    width: auto;
+    height: 90vh;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
 #book {
     width: auto;
-    height: 100vh;
-    background-color: rgb(151, 223, 113);
+    height: 90vh;
+    padding-top: 10%;
+    background-image: -webkit-linear-gradient(45deg, rgb(163, 175, 177) 0%, rgb(0, 36, 242) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 #events {
     width: auto;
-    height: 100vh;
-    background-color: rgb(87, 99, 164);
+    height: 90vh;
+    padding-top: 25vh;
+    background-image: -webkit-linear-gradient(45deg, rgb(26, 22, 26) 0%, rgb(161, 107, 150) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 #contact {
     width: auto;
-    height: 100vh;
-    background-color: rgb(131, 62, 98);
-}
-
-.content {
-    background-color: blue;
-    width: 100px;
-    height: 10px;
+    height: 90vh;
+    padding-top: 10%;
+    background-image: -webkit-linear-gradient(45deg, rgb(165, 177, 163) 0%, rgb(39, 41, 37) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .footer-container {
@@ -108,3 +147,6 @@ header a {
 .social a:hover {
     color: red;
 }
+
+
+
