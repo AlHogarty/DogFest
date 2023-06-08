@@ -136,7 +136,7 @@ header a {
 #events {
     padding: 0px 0px 0px 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
@@ -152,17 +152,29 @@ header a {
     display: flex;
     flex-direction: column;
     padding: 10px;
+}
 
+.lineup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 70vw;
+    height: auto;
+    background-color: #ffffff36;
+    border: 1px black solid;
+    align-items: center;
 }
 
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50%;
-    margin: 6px;
+    font-size: 70%;
+    margin: 10px, 5px;
+    text-align: center;
 }
 
-h2 h3 {
-    font-size: 150%;
+h2, h3 {
     text-align: center;
     padding: 2%;
 }
