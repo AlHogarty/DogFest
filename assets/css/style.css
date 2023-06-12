@@ -57,10 +57,12 @@ header a {
 }
 
 #home-ct {
-    background-image: ; 
+    background-image: url("../images/pexels-blue-bird-7210754.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
     width: auto;
     height: 90vh;
-    padding-top: 15vh;
+    padding-top: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: inherit;
@@ -69,11 +71,28 @@ header a {
     align-content: center;
 }
 
+#home {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 70vw;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px black solid;
+    font-size: 150%;
+    align-items: center;
+}
+
 #book-ct {
+    background-image: url("../images/pexels-blue-bird-7210270.jpg");"); 
+    background-repeat: no-repeat;
+    background-size: cover;
     width: auto;
     height: 100vh;
     padding-top: 20vh;
-    background-image: -webkit-linear-gradient(45deg, rgb(163, 175, 177) 0%, rgb(0, 36, 242) 100%);
     display: flex;
     flex-direction: column;
     justify-content: inherit;
@@ -83,10 +102,12 @@ header a {
 }
 
 #events-ct {
+    background-image: url("../images/pexels-sebastian-coman-travel-3641201.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
     width: auto;
     height: 100vh;
     padding-top: 20vh;
-    background-image: -webkit-linear-gradient(45deg, rgb(26, 22, 26) 0%, rgb(161, 107, 150) 100%);
     display: flex;
     flex-direction: column;
     justify-content: inherit;
@@ -96,10 +117,12 @@ header a {
 }
 
 #contact-ct {
+    background-image: url("../images/pexels-aliaksei-semirski-13042616.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
     width: auto;
     height: 70vh;
     padding-top: 20vh;
-    background-image: -webkit-linear-gradient(45deg, rgb(165, 177, 163) 0%, rgb(39, 41, 37) 100%);
     display: flex;
     flex-direction: column;
     justify-content: inherit;
